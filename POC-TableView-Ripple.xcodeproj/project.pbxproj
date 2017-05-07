@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		99ADF2ED41F202B968C1B1BD /* libPods-POC-TableView-Ripple.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F208085EA9FE0AC34134849A /* libPods-POC-TableView-Ripple.a */; };
+		A4782E5D1EBC91AE00E3DDCA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4782E5C1EBC91AE00E3DDCA /* AppDelegate.swift */; };
+		A4782E5F1EBC91AE00E3DDCA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4782E5E1EBC91AE00E3DDCA /* ViewController.swift */; };
+		A4782E621EBC91AE00E3DDCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4782E601EBC91AE00E3DDCA /* Main.storyboard */; };
+		A4782E641EBC91AE00E3DDCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4782E631EBC91AE00E3DDCA /* Assets.xcassets */; };
+		A4782E671EBC91AE00E3DDCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4782E651EBC91AE00E3DDCA /* LaunchScreen.storyboard */; };
+		A4782E701EBC921900E3DDCA /* TestTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4782E6E1EBC921900E3DDCA /* TestTableViewCell.swift */; };
+		A4782E711EBC921900E3DDCA /* TestTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4782E6F1EBC921900E3DDCA /* TestTableViewCell.xib */; };
+		A4782E731EBC929F00E3DDCA /* RippleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4782E721EBC929F00E3DDCA /* RippleView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5E979B447035847DE08A3CB7 /* Pods-POC-TableView-Ripple.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POC-TableView-Ripple.debug.xcconfig"; path = "Pods/Target Support Files/Pods-POC-TableView-Ripple/Pods-POC-TableView-Ripple.debug.xcconfig"; sourceTree = "<group>"; };
+		A41AFCC61EBDCC3D002CB4FC /* POC-TableView-Ripple-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "POC-TableView-Ripple-Bridging-Header.h"; sourceTree = "<group>"; };
+		A4782E591EBC91AE00E3DDCA /* POC-TableView-Ripple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "POC-TableView-Ripple.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4782E5C1EBC91AE00E3DDCA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A4782E5E1EBC91AE00E3DDCA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A4782E611EBC91AE00E3DDCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A4782E631EBC91AE00E3DDCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A4782E661EBC91AE00E3DDCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A4782E681EBC91AE00E3DDCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4782E6E1EBC921900E3DDCA /* TestTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestTableViewCell.swift; sourceTree = "<group>"; };
+		A4782E6F1EBC921900E3DDCA /* TestTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestTableViewCell.xib; sourceTree = "<group>"; };
+		A4782E721EBC929F00E3DDCA /* RippleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RippleView.swift; sourceTree = "<group>"; };
+		C8CBE0C0B668B98D022FC1B4 /* Pods-POC-TableView-Ripple.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POC-TableView-Ripple.release.xcconfig"; path = "Pods/Target Support Files/Pods-POC-TableView-Ripple/Pods-POC-TableView-Ripple.release.xcconfig"; sourceTree = "<group>"; };
+		F208085EA9FE0AC34134849A /* libPods-POC-TableView-Ripple.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-POC-TableView-Ripple.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4782E561EBC91AE00E3DDCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99ADF2ED41F202B968C1B1BD /* libPods-POC-TableView-Ripple.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		049FDD127EADA7C137B84D14 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5E979B447035847DE08A3CB7 /* Pods-POC-TableView-Ripple.debug.xcconfig */,
+				C8CBE0C0B668B98D022FC1B4 /* Pods-POC-TableView-Ripple.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		94EE5D744AE4137C3065E646 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F208085EA9FE0AC34134849A /* libPods-POC-TableView-Ripple.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A4782E501EBC91AE00E3DDCA = {
+			isa = PBXGroup;
+			children = (
+				A4782E5B1EBC91AE00E3DDCA /* POC-TableView-Ripple */,
+				A4782E5A1EBC91AE00E3DDCA /* Products */,
+				049FDD127EADA7C137B84D14 /* Pods */,
+				94EE5D744AE4137C3065E646 /* Frameworks */,
+				A41AFCC61EBDCC3D002CB4FC /* POC-TableView-Ripple-Bridging-Header.h */,
+			);
+			sourceTree = "<group>";
+		};
+		A4782E5A1EBC91AE00E3DDCA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4782E591EBC91AE00E3DDCA /* POC-TableView-Ripple.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4782E5B1EBC91AE00E3DDCA /* POC-TableView-Ripple */ = {
+			isa = PBXGroup;
+			children = (
+				A4782E5C1EBC91AE00E3DDCA /* AppDelegate.swift */,
+				A4782E5E1EBC91AE00E3DDCA /* ViewController.swift */,
+				A4782E601EBC91AE00E3DDCA /* Main.storyboard */,
+				A4782E6E1EBC921900E3DDCA /* TestTableViewCell.swift */,
+				A4782E6F1EBC921900E3DDCA /* TestTableViewCell.xib */,
+				A4782E721EBC929F00E3DDCA /* RippleView.swift */,
+				A4782E631EBC91AE00E3DDCA /* Assets.xcassets */,
+				A4782E651EBC91AE00E3DDCA /* LaunchScreen.storyboard */,
+				A4782E681EBC91AE00E3DDCA /* Info.plist */,
+			);
+			path = "POC-TableView-Ripple";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4782E581EBC91AE00E3DDCA /* POC-TableView-Ripple */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4782E6B1EBC91AE00E3DDCA /* Build configuration list for PBXNativeTarget "POC-TableView-Ripple" */;
+			buildPhases = (
+				CE77769CE661F871F5E641E7 /* [CP] Check Pods Manifest.lock */,
+				A4782E551EBC91AE00E3DDCA /* Sources */,
+				A4782E561EBC91AE00E3DDCA /* Frameworks */,
+				A4782E571EBC91AE00E3DDCA /* Resources */,
+				3572F9058D83AF35F453A0F3 /* [CP] Embed Pods Frameworks */,
+				CF89B287A85D20B66A34DE1A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "POC-TableView-Ripple";
+			productName = "POC-TableView-Ripple";
+			productReference = A4782E591EBC91AE00E3DDCA /* POC-TableView-Ripple.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4782E511EBC91AE00E3DDCA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = shravan;
+				TargetAttributes = {
+					A4782E581EBC91AE00E3DDCA = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = T8VKQV8896;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A4782E541EBC91AE00E3DDCA /* Build configuration list for PBXProject "POC-TableView-Ripple" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4782E501EBC91AE00E3DDCA;
+			productRefGroup = A4782E5A1EBC91AE00E3DDCA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4782E581EBC91AE00E3DDCA /* POC-TableView-Ripple */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4782E571EBC91AE00E3DDCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4782E671EBC91AE00E3DDCA /* LaunchScreen.storyboard in Resources */,
+				A4782E711EBC921900E3DDCA /* TestTableViewCell.xib in Resources */,
+				A4782E641EBC91AE00E3DDCA /* Assets.xcassets in Resources */,
+				A4782E621EBC91AE00E3DDCA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3572F9058D83AF35F453A0F3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-POC-TableView-Ripple/Pods-POC-TableView-Ripple-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE77769CE661F871F5E641E7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CF89B287A85D20B66A34DE1A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-POC-TableView-Ripple/Pods-POC-TableView-Ripple-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4782E551EBC91AE00E3DDCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4782E5F1EBC91AE00E3DDCA /* ViewController.swift in Sources */,
+				A4782E5D1EBC91AE00E3DDCA /* AppDelegate.swift in Sources */,
+				A4782E731EBC929F00E3DDCA /* RippleView.swift in Sources */,
+				A4782E701EBC921900E3DDCA /* TestTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A4782E601EBC91AE00E3DDCA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4782E611EBC91AE00E3DDCA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A4782E651EBC91AE00E3DDCA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4782E661EBC91AE00E3DDCA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A4782E691EBC91AE00E3DDCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A4782E6A1EBC91AE00E3DDCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4782E6C1EBC91AE00E3DDCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E979B447035847DE08A3CB7 /* Pods-POC-TableView-Ripple.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = T8VKQV8896;
+				INFOPLIST_FILE = "POC-TableView-Ripple/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hubbler.POC-TableView-Ripple";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "POC-TableView-Ripple-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A4782E6D1EBC91AE00E3DDCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8CBE0C0B668B98D022FC1B4 /* Pods-POC-TableView-Ripple.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = T8VKQV8896;
+				INFOPLIST_FILE = "POC-TableView-Ripple/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hubbler.POC-TableView-Ripple";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "POC-TableView-Ripple-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4782E541EBC91AE00E3DDCA /* Build configuration list for PBXProject "POC-TableView-Ripple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4782E691EBC91AE00E3DDCA /* Debug */,
+				A4782E6A1EBC91AE00E3DDCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4782E6B1EBC91AE00E3DDCA /* Build configuration list for PBXNativeTarget "POC-TableView-Ripple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4782E6C1EBC91AE00E3DDCA /* Debug */,
+				A4782E6D1EBC91AE00E3DDCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4782E511EBC91AE00E3DDCA /* Project object */;
+}
